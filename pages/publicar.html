@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estuda+ | Publicar material</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Estuda<span>+</span>
+    </div>
+
+    <nav>
+        <a href="../index.html">Início</a>
+        <a href="biblioteca.html">Biblioteca</a>
+        <a href="estudos.html">Meus estudos</a>
+        <a href="perfil.html">Perfil</a>
+    </nav>
+
+</header>
+
+<main class="container">
+
+    <section class="form-page">
+
+        <h1>Publicar material</h1>
+
+        <p>
+            Compartilhe um material para ajudar outros estudantes.
+        </p>
+
+        <form>
+
+            <label>Título do material</label>
+
+            <input
+                type="text"
+                placeholder="Ex: Resumo de Biologia"
+                required
+            >
+
+            <label>Descrição</label>
+
+            <textarea
+                placeholder="Descreva o conteúdo do material..."
+                rows="5"
+            ></textarea>
+
+            <label>Matéria</label>
+
+            <select>
+                <option>Matemática</option>
+                <option>Português</option>
+                <option>Biologia</option>
+                <option>História</option>
+            </select>
+
+            <label>Tipo de material</label>
+
+            <select>
+                <option>Resumo</option>
+                <option>Exercício</option>
+                <option>Mapa mental</option>
+                <option>Aula</option>
+            </select>
+
+            <label>Arquivo</label>
+
+            <input
+                type="file"
+                accept=".pdf,.doc,.docx"
+            >
+
+            <button class="btn">
+                Publicar material
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+</body>
+</html>
